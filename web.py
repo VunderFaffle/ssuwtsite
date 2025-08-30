@@ -1,6 +1,6 @@
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 
-HOST = "192.168.0.12"
+HOST = "0.0.0.0"
 PORT = 80
 
 # SimpleHTTPRequestHandler автоматически отдаст index.html из текущей папки
