@@ -1,7 +1,4 @@
 from http.server import SimpleHTTPRequestHandler, HTTPServer
-import threading
-import time
-from bs4 import BeautifulSoup as bs
 
 HOST = "192.168.0.12"
 PORT = 80
